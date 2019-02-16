@@ -4,9 +4,11 @@ Signs editor plugin for Nukkit
 
 Please see [mcbbs](http://www.mcbbs.net/thread-814526-1-1.html) for more information.
 ## Usage
-1. Click a sign
+1. Click a sign.
 2. Send command `/sign <line> [text]`
+
+Note: Use `/sign 0` to emptying the sign.
 
 | Command | Permission | Description |
 | - | - | - |
-| /sign <line> [text] | sign.command (OP) | Allows player to use /sign |
+| /sign | sign.command (OP) | Allows player to use /sign |
