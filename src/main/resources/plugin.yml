@@ -1,0 +1,12 @@
+main: cn.wode490390.nukkit.signseditor.SignsEditor
+name: "SignsEditor"
+author: "wode490390"
+description: "Signs editor plugin for Nukkit"
+website: "http://wode490390.cn/"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: POSTWORLD
+permissions:
+  sign.command:
+    description: "Allows player to use /sign"
+    default: op
