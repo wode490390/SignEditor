@@ -1,12 +1,13 @@
-main: cn.wode490390.nukkit.signseditor.SignsEditor
+main: cn.wode490390.nukkit.signeditor.SignEditorPlugin
 name: "SignsEditor"
 author: "wode490390"
-description: "Signs editor plugin for Nukkit"
-website: "http://wode490390.cn/"
+description: "Sign editor plugin for Nukkit"
+website: "https://wode490390.cn/"
 version: "${pom.version}"
 api: ["1.0.0"]
 load: POSTWORLD
+
 permissions:
   sign.command:
-    description: "Allows player to use /sign"
+    description: "Allows a player to use /sign"
     default: op
